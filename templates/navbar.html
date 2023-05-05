@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,22 +12,39 @@
     <nav>
         <div class="nav">
             <div class="logo">
-                <img src="https://images.unsplash.com/photo-1648205213977-075109f0b9e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60" alt="not found" style="height: 60px;width:60px;" >
+                <img src="../static/logoss.png" alt="not found" style="height:60px;width:120px;" >
             </div>
             <div class="menu">
                 <div class="inner">
                     <ul>
-                        <li  id="li">Home </li>
-                        <li  id="li">About Us</li>
-                        <li  id="li">Contact Us</li>
+                        <li  id="li"> <a href="navbar.html">Home</a> </li>
+                        <li  id="li"> <a href="#about">About Us</a></li>
+                        <li  id="li"> <a href="#formcontent">Contact Us</a></li>
                     </ul>
                 </div>
+                <a href="javascript:void(0);" onclick="myFunction()"><div  id="li_menu"><img src="../static/menu.png" alt="Menu" style="height: 60px;width:60px;margin-right:20px;"></div></a>
+                
+               
             </div>
         </div>
     </nav>
+               <!--      humburgermenu     -->
+            
+                <div id="inner2">
+                    <!-- <ul>
+                        <li  id="li">Home </li>
+                        <li  id="li">About Us</li>
+                        <li  id="li">Contact Us</li>
+                    </ul> -->
+                    <div class="menu-item"><a href="">Home</a></div>
+                    <div class="menu-item"><a href="">About Us</a> </div>
+                    <div class="menu-item"><a href="#formcontent">Contact Us</a></div>
+                    
+                </div>
+            
 
     <!-- banner -->
-    <div class="banner">
+    <div class="banner" >
     <div class="heading">
        <div>
         <h1 class="bannerh1">HII WELCOME TO MY WEBSITE</h1>
@@ -38,9 +55,10 @@
     
 
     <!-- about me section -->
-    <div class="about">
+    <div class="about" id="about">
+      <h1 class="recenth1">About Us</h1>
         <div class="abt-main">
-           <div class="bg-abt-text">
+         <div class="bg-abt-text">
             <div class="abt-text">
                <span style="font-size:1.7em;">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae neque, praesentium itaque ipsa rerum non, accusantium sit ullam fuga quos molestias saepe eveniet atque eos ex. Ad, quisquam consequatur<span style="font-size: 1.7em; margin:0px;padding:0px;">"</span>
               </div>
@@ -90,6 +108,68 @@
     </div>
 
 
+                          <!-- card images         -->
+        <h1 class="cardh1">My premium work</h1>
+        <div class="card">
+          
+          <div class="card-item">
+            <div class="cardl-image">
+              <img src="https://images.unsplash.com/photo-1502613374390-8da7aa532177?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW1hZ2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="cardimage">
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, eius.
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="cardl-image">
+              <img src="https://images.unsplash.com/photo-1682655012898-28f5c96a4c50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60" alt="" class="cardimage">
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, eius.
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="cardl-image">
+              <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" alt="" class="cardimage">
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, eius.
+            </div>
+          </div>
+          <div class="card-item card-item4 ">
+            <div class="cardl-image">
+              <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" alt="" class="cardimage">
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, eius.
+            </div>
+          </div>
+      
+      
+        </div>
+
+                       <!-- form section for web app  -->
+  
+  <div class="formcontainer">
+    <div class="formcontent" id="formcontent">
+      <h1>Contact Us</h1>
+    <form action="">
+      <label for="first-name" class="labels">Full Name</label> <br>
+      <input type="text" for="first-name" class="forminput"> <br>
+      <label for="first-name" class="labels">Email</label> <br>
+      <input type="text" for="first-name" class="forminput"> <br>
+      <label for="first-name" class="labels">Phone</label> <br>
+      <input type="text" for="first-name" class="forminput"> <br>
+      <label for="first-name" class="labels">Address</label> <br>
+      <input type="text" for="first-name" class="forminput">
+      <br>
+      <button class="submit">
+        Submit
+      </button>
+    </form>
+  </div>
+  </div>
+
 
                   <!--          fooooter         -->
 
@@ -105,5 +185,32 @@
 
 
  </div>
+
+
+  <!-- <script>
+  function myFunction() {
+  var x = document.getElementById("inner2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script> -->
+   <script>
+    var y = document.getElementsById("banner");
+    function myFunction() {
+    var x = document.getElementById("inner2");
+    
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      // y.style.marginTop = "75px";
+    } else {
+      x.style.display = "block";
+      // y.style.marginTop = "0p";
+    }
+    
+  }
+    </script>
 </body>
 </html>
