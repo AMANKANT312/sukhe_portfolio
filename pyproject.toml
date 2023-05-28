@@ -7,6 +7,9 @@ authors = ["Replit user <<>>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Flask = "^2.3.1"
+mysql-connector-python = "^8.0.33"
+SQLAlchemy = "^2.0.12"
+consultor = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
 
