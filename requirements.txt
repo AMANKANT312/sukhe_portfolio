@@ -1,6 +1,4 @@
-flask
+Flask
 gunicorn
-mysql
+sqlalchemy
 pymysql
-SQLAalchemy
-mysql-connector
